@@ -1,0 +1,9 @@
+To run the Server - npm run start (in the terminal)
+
+go localhost:5000 to test the apis
+
+1)
+localhost:5000/api/todos - listing todos excluding userId
+
+2)
+localhost:5000/api/users/:id   - listing userInfo and their todos by matching userId from url params
